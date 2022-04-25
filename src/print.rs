@@ -23,4 +23,8 @@ pub fn run() {
 
     //  Basic Math
     println!(" 10 + 10 = {}", 10 + 10);
+
+    // Decimal Precision
+    let pi = 3.141592;
+    println!("Pi is roughly {:.3}", pi);
 }
