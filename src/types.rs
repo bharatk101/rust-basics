@@ -8,8 +8,30 @@ Tuples
 Arrays
 */
 
+pub fn run() {
+    //  default i32
+    let x = 1;
 
-pub fn run(){
+    //  default f64
+    let y = 2.5;
 
+    // explicit type
+    let z: i64 = 1234596870;
 
+    //  find max size
+    println!("Max i32: {}", std::i32::MAX);
+    println!("Max i64: {}", std::i64::MAX);
+
+    // bool
+    let is_active: bool = true;
+
+    // get boolean rom an expression
+    let is_greater = 10 > 5;
+
+    //  CHAR
+    let a1 = 'a';
+
+    
+
+    println!("{:?}", (x, y, z, is_active, is_greater, a1));
 }
