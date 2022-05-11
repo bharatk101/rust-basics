@@ -8,7 +8,10 @@
 // mod contionals;
 // mod loops;
 // mod functions;
-mod pointer_ref;
+// mod pointer_ref;
+// mod structs;
+// mod enums;
+mod cli;
 
 fn main() {
     // print::run();
@@ -21,5 +24,8 @@ fn main() {
     // contionals::run();
     // loops::run();
     // functions::run();
-    pointer_ref::run();
+    // pointer_ref::run();
+    // structs::run();
+    // enums::run();
+    cli::run();
 }
