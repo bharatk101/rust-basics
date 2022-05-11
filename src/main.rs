@@ -3,7 +3,12 @@
 // mod types;
 // mod strings;
 // mod tuples;
-mod arrays;
+// mod arrays;
+// mod vectors;
+// mod contionals;
+// mod loops;
+// mod functions;
+mod pointer_ref;
 
 fn main() {
     // print::run();
@@ -11,5 +16,10 @@ fn main() {
     // types:: run();
     // strings::run();
     // tuples::run();
-    arrays::run();
+    // arrays::run();
+    // vectors::run();
+    // contionals::run();
+    // loops::run();
+    // functions::run();
+    pointer_ref::run();
 }
